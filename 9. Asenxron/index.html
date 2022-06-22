@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynch Programming</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      img{
+        width: 10%;
+      }
+    </style>
+  </head>
+<body>
+
+    <!-- <button id="btn-request" class="w-100 btn btn-primary">SEND</button> -->
+    <!-- <button id="btn-request2" class="w-100 btn btn-warning mt-4">GET CRYPTO</button> -->
+
+    
+    <!-- <section id="Users">
+        <div class="container">
+            <div id="list" class="row g-4">
+                
+            </div>
+        </div>
+    </section> -->
+
+
+    <div class="col-lg-6 mx-auto my-3">
+      <input id="input" type="text" class="form-control" placeholder="Search coin....">
+    </div>
+
+    <section id="Crpyto">
+        <div class="container">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th >Logo</th>
+                    <th >Name</th>
+                    <th >Price</th>
+                    <th >Market Cap</th>
+                    <th >Percentage 24H</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+                  
+                </tbody>
+
+                <tfoot>
+                  <tr>
+                    <td>
+                      <button>LOAD MORE</button>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+        </div>
+    </section>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
